@@ -17,6 +17,13 @@ header{
     vertical-align: middle;
 }
 
+header > p {
+    float: right;
+    background-color: palevioletred;
+    padding: 4px 8px;
+    list-style-type: none;
+}
+
 h1 {
     position: absolute;
     top: 1px;

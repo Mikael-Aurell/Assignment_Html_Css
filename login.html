@@ -19,28 +19,32 @@
         <p><a href="login.html"> Login</a></p>
     </header>
     <section>
-        <h2>Sweden</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vero dignissimos earum eligendi! Odit,
-            dignissimos
-            architecto! </p>
+        <h2>Login</h2>
+        <p><form class=" form formStyle">
+        <input type="text" placeholder="User name" name="username"/>
+
+        <input type="text" placeholder="Password" name="password">
+        <input class="button buttonReset" type="button" onclick="resetFunction()" value="Reset"></button>
+        <input class="button buttonSignIn" type="button" value="Sign in"></button>
+        <hr/>
+    </form>
+
+
+        <script>
+            function resetFunction() {
+                document.getElementById("loginForm").reset();
+            }
+        </script> </p>
 
         <article>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur error delectus doloremque, quasi
-                sunt
-                alias. Culpa quam aliquam odit, accusamus a quae maiores nesciunt rerum animi aliquid facere atque
-                necessitatibus.
-
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur error delectus doloremque, quasi
-                sunt
-                alias. Culpa quam aliquam odit, accusamus a quae maiores nesciunt rerum animi aliquid facere atque
-                necessitatibus.</p>
+            <p></p>
         </article>
 
         <article>
 
             <span>
-                <img src="image1.jpg" height="400" width="200" alt="" /></span>
+                </span>
         </article>
 
     </section>
